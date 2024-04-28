@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.paper {
+    width: 21cm; /* A4 width */
+    height: 18cm; /* A4 height */
+    margin: 2cm auto; /* Center the paper and add some space around it */
+    padding: 2cm; /* Add padding for content within A4 size */
+    border: 1px solid #000; /* Border to represent paper */
+    box-sizing: border-box; /* Include padding and border in total width and height */
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px; /* Increase font size */
+}
+
+h2 {
+    margin-top: 0;
+    color: #006EB6;
+    font-size: 20px; /* Increase font size */
+}
+
+p {
+    margin: 0 0 15px; /* Increase bottom margin */
+    text-align: justify;
+    font-size: 18px; /* Increase font size */
+}
+
+p + p {
+    margin-top: 15px; /* Add gap between paragraphs */
+}
+
+ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 12px; /* Increase bottom margin */
+    font-size: 16px; /* Increase font size */
+}
+
+footer img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
