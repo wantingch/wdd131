@@ -34,6 +34,12 @@ h2 {
     color: #006EB6;
     font-size: 20px; /* Increase font size */
 }
+.horizontal-line{height: 0px; /* Make the div effectively invisible except for the border */
+    border-bottom: 1px solid #333; /* Create a solid line */
+}
+
+.line-height{line-height: 150%;
+}
 
 p {
     margin: 0 0 15px; /* Increase bottom margin */
