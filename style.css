@@ -44,9 +44,6 @@ h2 {
     margin-bottom: 40px; 
 }
 
-.line-height{line-height: 150%;
-}
-
 p {
     margin: 0 0 15px; /* Increase bottom margin */
     text-align: justify;
@@ -58,7 +55,7 @@ ol li {
 
 footer img {
     max-width: 100px;
-    margin-top: 12px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -60px;
