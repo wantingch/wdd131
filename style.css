@@ -61,3 +61,15 @@ footer img {
     margin-bottom: -60px;
 
 }
+#mode{
+    margin-bottom: 20px;
+}
+
+.dark {
+    background-color: #333;
+    color: white;
+}
+
+.dark h2 {
+    color: #14a2ff;
+}
