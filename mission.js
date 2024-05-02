@@ -18,5 +18,4 @@ if (theme=="dark"){
 
 themeSelector = document.getElementById("mode")
 
-themeSelector.addEventListener("cshange", changeTheme)
-// add eventlistener to the themeSelector element here. Use the changeTheme function as the event handler function.
+themeSelector.addEventListener("change", changeTheme)
